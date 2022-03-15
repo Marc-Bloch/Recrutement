@@ -51,6 +51,7 @@
         </select>
         <br><br><br>
         <textarea placeholder="vos motivations, qualités, défault..." name="motivations" requierd></textarea>
+        <br><br><br>
         <label for="regles">J'ai déjà lu toutes les règles du serveur:</label>
         <input type="checkbox" name="regles" id="regles" required>
         <br><br><br>
@@ -65,15 +66,20 @@
     transform: translate(-50%, -50%);
 }
 
-#submit{
+        #submit{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
 }
 
-body{
+        body{
     background-color: yellow;
 }
+        
+        textarea{
+        resize= none;
+        }
+        
     </style>
 </body>
 </html>
